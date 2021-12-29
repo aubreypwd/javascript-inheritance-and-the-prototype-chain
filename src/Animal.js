@@ -1,6 +1,6 @@
 export default class Animal {
 
 	constructor() {
-		console.log( 'hi' );
+		console.log( 'I am an Animal.' );
 	}
 }

@@ -1,3 +1,5 @@
-import Animal from './Animal.js';
+import Cat from './Cat.js';
+import Dog from './Dog.js';
 
-const animal = new Animal();
+const cat = new Cat();
+const dog = new Dog();
