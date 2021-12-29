@@ -11,7 +11,7 @@ export default class Animal {
 	}
 
 	sleep( amount ) {
-		this.energy += amount;
+		this.energy += amount * 2;
 	}
 
 	play( amount ) {
