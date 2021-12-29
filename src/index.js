@@ -24,4 +24,7 @@ dog.sleep( 2 );
 console.warn( `Cat Energy: ${cat.energy}`, `Dog Energy: ${dog.energy}` );
 
 // Dog breed
-console.warn( `Dog Breed: ${dog.breed}` );
+console.warn( `Dog breed: ${dog.breed()}` );
+
+// Throws an error since it's private!
+// console.warn( `Dog Breed: ${dog.#breed}` );
